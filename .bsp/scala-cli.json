@@ -1,0 +1,16 @@
+{
+  "name": "scala-cli",
+  "argv": [
+    "C:\\Users\\Vishwa\\AppData\\Local\\Coursier\\data\\bin\\.scala-cli.aux.exe",
+    "bsp",
+    "--json-options",
+    "C:\\Users\\Vishwa\\Documents\\MYWORK\\scala\\Patrical 06\\.scala-build\\ide-options-v2.json",
+    "C:\\Users\\Vishwa\\Documents\\MYWORK\\scala\\Patrical 06"
+  ],
+  "version": "1.0.0",
+  "bspVersion": "2.1.0-M3",
+  "languages": [
+    "scala",
+    "java"
+  ]
+}

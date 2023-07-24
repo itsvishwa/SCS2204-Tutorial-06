@@ -1,0 +1,777 @@
+2023.07.24 10:56:56 INFO  Started: Metals version 1.0.0 in folders 'C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06' for client Visual Studio Code 1.80.1.
+Jul 24, 2023 10:56:56 AM org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.20.1 by Redgate
+Jul 24, 2023 10:56:56 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Jul 24, 2023 10:56:56 AM org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Jul 24, 2023 10:56:56 AM org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\.metals\metals (H2 2.1)
+Jul 24, 2023 10:56:56 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory allAppliedMigrations
+INFO: Schema history table "PUBLIC"."flyway_schema_history" does not exist yet
+Jul 24, 2023 10:56:56 AM org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.020s)
+Jul 24, 2023 10:56:56 AM org.flywaydb.core.internal.schemahistory.JdbcTableSchemaHistory create
+INFO: Creating Schema History table "PUBLIC"."flyway_schema_history" ...
+Jul 24, 2023 10:56:56 AM org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": << Empty Schema >>
+Jul 24, 2023 10:56:56 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "1 - Create tables"
+Jul 24, 2023 10:56:56 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "2 - Server discovery"
+Jul 24, 2023 10:56:56 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "3 - Jar symbols"
+Jul 24, 2023 10:56:56 AM org.flywaydb.core.internal.command.DbMigrate doMigrateGroup
+INFO: Migrating schema "PUBLIC" to version "4 - Fingerprints"
+Jul 24, 2023 10:56:56 AM org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Successfully applied 4 migrations to schema "PUBLIC", now at version v4 (execution time 00:00.026s)
+2023.07.24 10:56:56 INFO  time: initialize in 0.71s
+2023.07.24 10:57:00 INFO  Running List(C:\Users\Vishwa\AppData\Local\Coursier\data\bin\scala-cli.BAT, setup-ide, C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06)
+2023.07.24 10:57:01 INFO  Attempting to connect to the build server...
+2023.07.24 10:57:01 INFO  Running BSP server List(C:\Users\Vishwa\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\.scala-build\ide-options-v2.json, C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06)
+2023.07.24 10:57:00 WARN  No build session currently active to reload.
+2023.07.24 10:57:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\.metals\bsp.trace.json or C:\Users\Vishwa\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.07.24 10:57:01 INFO  BSP server: Starting compilation server
+2023.07.24 10:57:01 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.6-sc-8/bloop-frontend_2.12-1.5.6-sc-8.pom
+2023.07.24 10:57:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.6-sc-8/bloop-frontend_2.12-1.5.6-sc-8.pom
+2023.07.24 10:57:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.pom
+2023.07.24 10:57:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.6-sc-8/bloop-backend_2.12-1.5.6-sc-8.pom
+2023.07.24 10:57:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.pom
+2023.07.24 10:57:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/3.0.7/scala-debug-adapter_2.12-3.0.7.pom
+2023.07.24 10:57:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.pom
+2023.07.24 10:57:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.pom
+2023.07.24 10:57:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/3.0.7/scala-debug-adapter_2.12-3.0.7.pom
+2023.07.24 10:57:03 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.6-sc-8/bloop-backend_2.12-1.5.6-sc-8.pom
+2023.07.24 10:57:03 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.4.6/logback-parent-1.4.6.pom
+2023.07.24 10:57:04 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-parent/1.4.6/logback-parent-1.4.6.pom
+2023.07.24 10:57:04 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.5/asm-util-9.5.pom
+2023.07.24 10:57:04 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+12/com-microsoft-java-debug-core-0.34.0+12.pom
+2023.07.24 10:57:04 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.15.0/brave-5.15.0.pom
+2023.07.24 10:57:04 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.pom
+2023.07.24 10:57:04 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.6-sc-8/bloop-shared_2.12-1.5.6-sc-8.pom
+2023.07.24 10:57:04 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.7/scalaz-core_2.12-7.3.7.pom
+2023.07.24 10:57:04 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.5/asm-util-9.5.pom
+2023.07.24 10:57:04 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.15/zt-zip-1.15.pom
+2023.07.24 10:57:04 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.pom
+2023.07.24 10:57:04 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.15.0/brave-5.15.0.pom
+2023.07.24 10:57:04 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/9.5/asm-9.5.pom
+2023.07.24 10:57:04 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.pom
+2023.07.24 10:57:04 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+12/com-microsoft-java-debug-core-0.34.0+12.pom
+2023.07.24 10:57:04 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.8.2/test-agent-1.8.2.pom
+2023.07.24 10:57:04 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.15/zt-zip-1.15.pom
+2023.07.24 10:57:04 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.pom
+2023.07.24 10:57:04 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-api/2.0.4/slf4j-api-2.0.4.pom
+2023.07.24 10:57:04 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm/9.5/asm-9.5.pom
+2023.07.24 10:57:04 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.8.2/test-agent-1.8.2.pom
+2023.07.24 10:57:04 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.6-sc-8/bloop-shared_2.12-1.5.6-sc-8.pom
+2023.07.24 10:57:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.7/scalaz-core_2.12-7.3.7.pom
+2023.07.24 10:57:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.pom
+2023.07.24 10:57:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/2.0.4/slf4j-parent-2.0.4.pom
+2023.07.24 10:57:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/zipkin/brave/brave-parent/5.15.0/brave-parent-5.15.0.pom
+2023.07.24 10:57:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/slf4j/slf4j-parent/2.0.4/slf4j-parent-2.0.4.pom
+2023.07.24 10:57:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/zipkin/brave/brave-parent/5.15.0/brave-parent-5.15.0.pom
+2023.07.24 10:57:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.pom
+2023.07.24 10:57:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.pom
+2023.07.24 10:57:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.8.0/zinc_2.12-1.8.0.pom
+2023.07.24 10:57:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.pom
+2023.07.24 10:57:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.pom
+2023.07.24 10:57:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.pom
+2023.07.24 10:57:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.pom
+2023.07.24 10:57:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.pom
+2023.07.24 10:57:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.8.0/zinc_2.12-1.8.0.pom
+2023.07.24 10:57:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.pom
+2023.07.24 10:57:05 INFO  BSP server: Downloading https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom
+2023.07.24 10:57:05 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna-platform/4.4.0/jna-platform-4.4.0.pom
+2023.07.24 10:57:06 INFO  no build target found for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala. Using presentation compiler with project's scala-library version: 3.3.0
+2023.07.24 10:57:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/net/java/dev/jna/jna/4.5.2/jna-4.5.2.pom
+2023.07.24 10:57:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.pom
+2023.07.24 10:57:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.20.0/log4j-2.20.0.pom
+2023.07.24 10:57:06 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j/2.20.0/log4j-2.20.0.pom
+2023.07.24 10:57:06 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/logging/logging-parent/7/logging-parent-7.pom
+2023.07.24 10:57:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/logging/logging-parent/7/logging-parent-7.pom
+2023.07.24 10:57:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/apache/27/apache-27.pom
+2023.07.24 10:57:08 INFO  time: code lens generation in 9.59s
+2023.07.24 10:57:08 INFO  time: code lens generation in 6.23s
+2023.07.24 10:57:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/apache/27/apache-27.pom
+2023.07.24 10:57:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/jakarta/platform/jakarta.jakartaee-bom/9.0.0/jakarta.jakartaee-bom-9.0.0.pom
+2023.07.24 10:57:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/fabric8/kubernetes-client-bom/5.12.2/kubernetes-client-bom-5.12.2.pom
+2023.07.24 10:57:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-bom/2.14.1/jackson-bom-2.14.1.pom
+2023.07.24 10:57:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/netty/netty-bom/4.1.86.Final/netty-bom-4.1.86.Final.pom
+2023.07.24 10:57:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-bom/2.20.0/log4j-bom-2.20.0.pom
+2023.07.24 10:57:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/springframework/spring-framework-bom/5.3.24/spring-framework-bom-5.3.24.pom
+2023.07.24 10:57:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/jakarta/platform/jakarta.jakartaee-bom/9.0.0/jakarta.jakartaee-bom-9.0.0.pom
+2023.07.24 10:57:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-bom/9.4.50.v20221201/jetty-bom-9.4.50.v20221201.pom
+2023.07.24 10:57:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-bom/2.20.0/log4j-bom-2.20.0.pom
+2023.07.24 10:57:08 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/codehaus/groovy/groovy-bom/3.0.14/groovy-bom-3.0.14.pom
+2023.07.24 10:57:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/netty/netty-bom/4.1.86.Final/netty-bom-4.1.86.Final.pom
+2023.07.24 10:57:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/fasterxml/jackson/jackson-bom/2.14.1/jackson-bom-2.14.1.pom
+2023.07.24 10:57:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/fabric8/kubernetes-client-bom/5.12.2/kubernetes-client-bom-5.12.2.pom
+2023.07.24 10:57:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/eclipse/jetty/jetty-bom/9.4.50.v20221201/jetty-bom-9.4.50.v20221201.pom
+2023.07.24 10:57:08 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/codehaus/groovy/groovy-bom/3.0.14/groovy-bom-3.0.14.pom
+2023.07.24 10:57:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/springframework/spring-framework-bom/5.3.24/spring-framework-bom-5.3.24.pom
+2023.07.24 10:57:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/jakarta/platform/jakartaee-api-parent/9.0.0/jakartaee-api-parent-9.0.0.pom
+2023.07.24 10:57:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/jakarta/platform/jakartaee-api-parent/9.0.0/jakartaee-api-parent-9.0.0.pom
+2023.07.24 10:57:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/eclipse/ee4j/project/1.0.6/project-1.0.6.pom
+2023.07.24 10:57:09 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/eclipse/ee4j/project/1.0.6/project-1.0.6.pom
+2023.07.24 10:57:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.8.0/util-logging_2.12-1.8.0.pom
+2023.07.24 10:57:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.8.0/util-cache_2.12-1.8.0.pom
+2023.07.24 10:57:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.8.0/zinc-persist_2.12-1.8.0.pom
+2023.07.24 10:57:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.8.0/util-position_2.12-1.8.0.pom
+2023.07.24 10:57:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom
+2023.07.24 10:57:09 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.8.0/io_2.12-1.8.0.pom
+2023.07.24 10:57:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.8.0/util-logging_2.12-1.8.0.pom
+2023.07.24 10:57:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.pom
+2023.07.24 10:57:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.8.0/util-cache_2.12-1.8.0.pom
+2023.07.24 10:57:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.8.0/zinc-classfile_2.12-1.8.0.pom
+2023.07.24 10:57:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.8.0/util-position_2.12-1.8.0.pom
+2023.07.24 10:57:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.8.0/zinc-persist_2.12-1.8.0.pom
+2023.07.24 10:57:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.8.0/zinc-compile-core_2.12-1.8.0.pom
+2023.07.24 10:57:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/launcher-interface/1.0.0/launcher-interface-1.0.0.pom
+2023.07.24 10:57:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.8.0/zinc-core_2.12-1.8.0.pom
+2023.07.24 10:57:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.pom
+2023.07.24 10:57:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.8.0/zinc-compile-core_2.12-1.8.0.pom
+2023.07.24 10:57:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.8.0/zinc-classfile_2.12-1.8.0.pom
+2023.07.24 10:57:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.8.0/zinc-core_2.12-1.8.0.pom
+2023.07.24 10:57:10 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.8.0/io_2.12-1.8.0.pom
+2023.07.24 10:57:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.8.0/util-control_2.12-1.8.0.pom
+2023.07.24 10:57:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.8.0/collections_2.12-1.8.0.pom
+2023.07.24 10:57:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.8.0/zinc-classpath_2.12-1.8.0.pom
+2023.07.24 10:57:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.8.0/zinc-persist-core-assembly-1.8.0.pom
+2023.07.24 10:57:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.8.0/zinc-apiinfo_2.12-1.8.0.pom
+2023.07.24 10:57:10 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.8.0/compiler-interface-1.8.0.pom
+2023.07.24 10:57:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.8.0/util-control_2.12-1.8.0.pom
+2023.07.24 10:57:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.8.0/util-relation_2.12-1.8.0.pom
+2023.07.24 10:57:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.8.0/zinc-apiinfo_2.12-1.8.0.pom
+2023.07.24 10:57:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.8.0/core-macros_2.12-1.8.0.pom
+2023.07.24 10:57:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.8.0/collections_2.12-1.8.0.pom
+2023.07.24 10:57:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.8.0/zinc-classpath_2.12-1.8.0.pom
+2023.07.24 10:57:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.8.0/util-interface-1.8.0.pom
+2023.07.24 10:57:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.8.0/zinc-persist-core-assembly-1.8.0.pom
+2023.07.24 10:57:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.8.0/util-relation_2.12-1.8.0.pom
+2023.07.24 10:57:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.8.0/core-macros_2.12-1.8.0.pom
+2023.07.24 10:57:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.8.0/util-interface-1.8.0.pom
+2023.07.24 10:57:11 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.8.0/compiler-interface-1.8.0.pom
+2023.07.24 10:57:11 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.8.0/compiler-bridge_2.12-1.8.0.pom
+2023.07.24 10:57:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.8.0/compiler-bridge_2.12-1.8.0.pom
+2023.07.24 10:57:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.8.0/util-interface-1.8.0.jar
+2023.07.24 10:57:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.8.0/core-macros_2.12-1.8.0.jar
+2023.07.24 10:57:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.8.0/zinc-core_2.12-1.8.0.jar
+2023.07.24 10:57:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.8.0/util-cache_2.12-1.8.0.jar
+2023.07.24 10:57:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.8.0/compiler-interface-1.8.0.jar
+2023.07.24 10:57:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.8.0/zinc-persist-core-assembly-1.8.0.jar
+2023.07.24 10:57:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-interface/1.8.0/util-interface-1.8.0.jar
+2023.07.24 10:57:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar
+2023.07.24 10:57:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-interface/1.8.0/compiler-interface-1.8.0.jar
+2023.07.24 10:57:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.15/zt-zip-1.15.jar
+2023.07.24 10:57:12 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/core-macros_2.12/1.8.0/core-macros_2.12-1.8.0.jar
+2023.07.24 10:57:12 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.8.0/compiler-bridge_2.12-1.8.0.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/zeroturnaround/zt-zip/1.15/zt-zip-1.15.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.8.0/util-logging_2.12-1.8.0.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-cache_2.12/1.8.0/util-cache_2.12-1.8.0.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-core_2.12/1.8.0/zinc-core_2.12-1.8.0.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/compiler-bridge_2.12/1.8.0/compiler-bridge_2.12-1.8.0.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.8.0/util-relation_2.12-1.8.0.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-tree/9.5/asm-tree-9.5.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/3.0.7/scala-debug-adapter_2.12-3.0.7.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-util/9.5/asm-util-9.5.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.8.0/util-control_2.12-1.8.0.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-api/2.20.0/log4j-api-2.20.0.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.8.0/zinc-apiinfo_2.12-1.8.0.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-relation_2.12/1.8.0/util-relation_2.12-1.8.0.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.8.0/zinc-compile-core_2.12-1.8.0.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-logging_2.12/1.8.0/util-logging_2.12-1.8.0.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-control_2.12/1.8.0/util-control_2.12-1.8.0.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/ow2/asm/asm/9.5/asm-9.5.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-apiinfo_2.12/1.8.0/zinc-apiinfo_2.12-1.8.0.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.8.0/util-position_2.12-1.8.0.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm-analysis/9.5/asm-analysis-9.5.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+12/com-microsoft-java-debug-core-0.34.0+12.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-compile-core_2.12/1.8.0/zinc-compile-core_2.12-1.8.0.jar
+2023.07.24 10:57:13 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.15.0/brave-5.15.0.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/scala-debug-adapter_2.12/3.0.7/scala-debug-adapter_2.12-3.0.7.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.6-sc-8/bloop-frontend_2.12-1.5.6-sc-8.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/ow2/asm/asm/9.5/asm-9.5.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.8.0/collections_2.12-1.8.0.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/util-position_2.12/1.8.0/util-position_2.12-1.8.0.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.8.0/zinc-classpath_2.12-1.8.0.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/epfl/scala/com-microsoft-java-debug-core/0.34.0+12/com-microsoft-java-debug-core-0.34.0+12.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.6-sc-8/bloop-shared_2.12-1.5.6-sc-8.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist-core-assembly/1.8.0/zinc-persist-core-assembly-1.8.0.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.8.0/zinc-persist_2.12-1.8.0.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/zipkin/brave/brave/5.15.0/brave-5.15.0.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classpath_2.12/1.8.0/zinc-classpath_2.12-1.8.0.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/collections_2.12/1.8.0/collections_2.12-1.8.0.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.7/scalaz-core_2.12-7.3.7.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-shared_2.12/1.5.6-sc-8/bloop-shared_2.12-1.5.6-sc-8.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-persist_2.12/1.8.0/zinc-persist_2.12-1.8.0.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-frontend_2.12/1.5.6-sc-8/bloop-frontend_2.12-1.5.6-sc-8.jar
+2023.07.24 10:57:14 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.8.2/test-agent-1.8.2.jar
+2023.07.24 10:57:16 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/nailgun-server/1.0.7/nailgun-server-1.0.7.jar
+2023.07.24 10:57:16 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.8.0/zinc-classfile_2.12-1.8.0.jar
+2023.07.24 10:57:16 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-classic/1.4.6/logback-classic-1.4.6.jar
+2023.07.24 10:57:16 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar
+2023.07.24 10:57:16 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/test-agent/1.8.2/test-agent-1.8.2.jar
+2023.07.24 10:57:16 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar
+2023.07.24 10:57:16 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/ch/qos/logback/logback-core/1.4.6/logback-core-1.4.6.jar
+2023.07.24 10:57:16 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.8.0/io_2.12-1.8.0.jar
+2023.07.24 10:57:17 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc-classfile_2.12/1.8.0/zinc-classfile_2.12-1.8.0.jar
+2023.07.24 10:57:17 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.6-sc-8/bloop-backend_2.12-1.5.6-sc-8.jar
+2023.07.24 10:57:17 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/libdaemon/libdaemon_2.12/0.0.11/libdaemon_2.12-0.0.11.jar
+2023.07.24 10:57:17 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.8.0/zinc_2.12-1.8.0.jar
+2023.07.24 10:57:18 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/io_2.12/1.8.0/io_2.12-1.8.0.jar
+2023.07.24 10:57:18 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-sbt/zinc_2.12/1.8.0/zinc_2.12-1.8.0.jar
+2023.07.24 10:57:19 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/github/alexarchambault/bleep/bloop-backend_2.12/1.5.6-sc-8/bloop-backend_2.12-1.5.6-sc-8.jar
+2023.07.24 10:57:19 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/apache/logging/log4j/log4j-core/2.20.0/log4j-core-2.20.0.jar
+2023.07.24 10:57:21 ERROR Timeout waiting for 'build/initialize' response
+2023.07.24 10:57:21 WARN  Retrying connection to the build server scala-cli
+2023.07.24 10:57:21 INFO  Running BSP server List(C:\Users\Vishwa\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\.scala-build\ide-options-v2.json, C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06)
+2023.07.24 10:57:21 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\.metals\bsp.trace.json or C:\Users\Vishwa\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.07.24 10:57:21 INFO  BSP server: Starting compilation server
+2023.07.24 10:57:21 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.7/scalaz-core_2.12-7.3.7.jar
+2023.07.24 10:57:21 INFO  BSP server: Downloading https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar
+2023.07.24 10:57:25 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scalaz/scalaz-core_2.12/7.3.7/scalaz-core_2.12-7.3.7.jar
+2023.07.24 10:57:25 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/io/get-coursier/interface/1.0.13/interface-1.0.13.jar
+2023.07.24 10:57:29 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.07.24 10:57:29 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.07.24 10:57:29 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.07.24 10:57:29 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.07.24 10:57:29 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.07.24 10:57:29 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.07.24 10:57:29 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.07.24 10:57:29 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.07.24 10:57:30 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.07.24 10:57:30 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.07.24 10:57:30 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.07.24 10:57:30 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.07.24 10:57:30 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.pom
+2023.07.24 10:57:30 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.pom
+2023.07.24 10:57:30 INFO  BSP server: Downloading https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar
+2023.07.24 10:57:32 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/com/sourcegraph/semanticdb-javac/0.7.4/semanticdb-javac-0.7.4.jar
+2023.07.24 10:57:32 INFO  time: Connected to build server in 31s
+2023.07.24 10:57:32 INFO  Connected to Build server: scala-cli v1.0.0
+2023.07.24 10:57:32 INFO  time: Imported build in 0.4s
+2023.07.24 10:57:34 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 10:57:35 INFO  time: indexed workspace in 2.62s
+2023.07.24 10:57:39 INFO  time: compiled project_bd2c96d2de in 5.32s
+2023.07.24 12:00:39 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:00:39 INFO  time: compiled project_bd2c96d2de in 0.82s
+2023.07.24 12:00:42 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:00:42 INFO  time: compiled project_bd2c96d2de in 0.21s
+2023.07.24 12:04:52 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:04:53 INFO  time: compiled project_bd2c96d2de in 1.33s
+Jul 24, 2023 12:07:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 432
+2023.07.24 12:07:51 WARN  no build target for: C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 04\tutorial04\src\main\scala\Question02.scala
+2023.07.24 12:07:56 WARN  no build target for: C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 04\tutorial04\src\main\scala\Question03.scala
+2023.07.24 12:14:16 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/Patrical%2006/Question01.scala:3:1: stale bloop error: '=' expected, but '}' found
+}
+^
+2023.07.24 12:14:16 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/Patrical%2006/Question01.scala:3:2: stale bloop error: Found:    Unit
+Required: String
+}
+ ^
+2023.07.24 12:14:16 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/Patrical%2006/Question01.scala:3:1: stale bloop error: '=' expected, but '}' found
+}
+^
+2023.07.24 12:14:16 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/Patrical%2006/Question01.scala:3:2: stale bloop error: Found:    Unit
+Required: String
+}
+ ^
+2023.07.24 12:14:37 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/Patrical%2006/Question01.scala:3:1: stale bloop error: '=' expected, but '}' found
+}
+^
+2023.07.24 12:14:37 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/Patrical%2006/Question01.scala:3:2: stale bloop error: Found:    Unit
+Required: String
+}
+ ^
+2023.07.24 12:14:37 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/Patrical%2006/Question01.scala:3:1: stale bloop error: '=' expected, but '}' found
+}
+^
+2023.07.24 12:14:37 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/Patrical%2006/Question01.scala:3:2: stale bloop error: Found:    Unit
+Required: String
+}
+ ^
+2023.07.24 12:18:58 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/Patrical%2006/Question01.scala:3:1: stale bloop error: '=' expected, but '}' found
+}
+^
+2023.07.24 12:18:58 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/Patrical%2006/Question01.scala:3:2: stale bloop error: Found:    Unit
+Required: String
+}
+ ^
+2023.07.24 12:18:58 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/Patrical%2006/Question01.scala:3:1: stale bloop error: '=' expected, but '}' found
+}
+^
+2023.07.24 12:18:58 INFO  file:///C:/Users/Vishwa/Documents/MYWORK/scala/Patrical%2006/Question01.scala:3:2: stale bloop error: Found:    Unit
+Required: String
+}
+ ^
+2023.07.24 12:20:28 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:20:28 INFO  time: compiled project_bd2c96d2de in 0.34s
+2023.07.24 12:22:18 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:22:18 INFO  time: compiled project_bd2c96d2de in 0.2s
+2023.07.24 12:22:30 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:22:30 INFO  time: compiled project_bd2c96d2de in 0.2s
+2023.07.24 12:22:38 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:22:38 INFO  time: compiled project_bd2c96d2de in 0.17s
+2023.07.24 12:22:46 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:22:46 INFO  time: compiled project_bd2c96d2de in 0.15s
+2023.07.24 12:22:49 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:22:49 INFO  time: compiled project_bd2c96d2de in 0.18s
+2023.07.24 12:23:15 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:23:15 INFO  time: compiled project_bd2c96d2de in 0.67s
+2023.07.24 12:23:41 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:23:41 INFO  time: compiled project_bd2c96d2de in 0.45s
+2023.07.24 12:24:02 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:24:02 INFO  time: compiled project_bd2c96d2de in 0.4s
+2023.07.24 12:24:32 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:24:33 INFO  time: compiled project_bd2c96d2de in 1.24s
+2023.07.24 12:24:33 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:24:37 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:24:42 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:24:46 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:24:48 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+Jul 24, 2023 12:24:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1618
+2023.07.24 12:24:51 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:24:52 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:24:52 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:24:54 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:24:55 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:24:57 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:24:58 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:25:12 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:25:14 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:25:15 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:25:20 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:25:23 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:25:24 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:25:24 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:25:39 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:25:40 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:25:46 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:25:47 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:25:48 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:25:49 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:25:50 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:25:52 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:25:53 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:25:56 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:25:59 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:25:59 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:26:01 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:26:03 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:26:04 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:26:04 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:26:06 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:26:08 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:26:13 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:26:14 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:26:19 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:26:19 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:26:26 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:26:26 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:30:11 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:34:12 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:36:33 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:36:33 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:36:34 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:36:34 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:36:36 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:36:38 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:36:38 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:36:38 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:36:41 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:36:42 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:36:43 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:36:47 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:36:48 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:00 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:01 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:03 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:04 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:05 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:07 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:12 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:14 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:15 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:17 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:18 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:17 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:21 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:23 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:25 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:28 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:29 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:30 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:31 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:33 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:34 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:34 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:35 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:37 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:38 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:39 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:41 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:41 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:43 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:44 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:44 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:45 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:50 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:53 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:37:54 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:38:16 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:38:16 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:38:17 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:38:18 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:38:20 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:38:23 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:38:23 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:38:25 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:38:28 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:38:28 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:38:29 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:39:14 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:39:16 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:39:18 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:39:19 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:39:21 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:39:28 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:39:28 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:39:28 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:39:28 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:39:28 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:39:28 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:39:28 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:39:28 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:39:29 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:39:33 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:39:34 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+Jul 24, 2023 12:40:25 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2628
+2023.07.24 12:41:06 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:42:38 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:42:38 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:42:41 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:42:41 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:43:14 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:43:14 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:43:14 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:43:14 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:43:14 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:43:16 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+Jul 24, 2023 12:43:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2764
+2023.07.24 12:43:17 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:43:19 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:43:21 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:43:21 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:43:35 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:43:36 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:43:39 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:43:41 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:43:42 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:45:47 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:45:51 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:00 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:01 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:02 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:07 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:10 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:12 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:18 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:20 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:21 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:23 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:32 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:36 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:37 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:38 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:41 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:41 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:45 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:45 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:49 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:50 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:51 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:52 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:54 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:56 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:58 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:46:59 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:47:00 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:47:01 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:47:01 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:47:04 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:47:05 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:47:07 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:47:08 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:47:22 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:47:22 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:47:24 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:47:26 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:47:26 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:47:27 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:47:44 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:47:44 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:47:48 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:47:50 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:47:51 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:47:51 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:06 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:06 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:07 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:10 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:11 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:18 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:19 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:22 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:24 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:26 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:28 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:29 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:31 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:32 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:33 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:35 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:36 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:38 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:47 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:47 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:48:49 INFO  time: compiled project_bd2c96d2de in 1.4s
+2023.07.24 12:48:50 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:50 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:48:50 INFO  time: compiled project_bd2c96d2de in 0.78s
+2023.07.24 12:48:51 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:48:52 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:49:49 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:49:51 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:49:53 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:50:09 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:50:11 INFO  time: compiled project_bd2c96d2de in 1.21s
+2023.07.24 12:50:11 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:50:22 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:50:24 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:50:26 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+Jul 24, 2023 12:50:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3508
+2023.07.24 12:50:28 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:50:28 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:50:29 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:50:29 INFO  time: compiled project_bd2c96d2de in 0.53s
+2023.07.24 12:50:30 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:50:35 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:50:36 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:50:38 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:50:39 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:50:40 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:50:43 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:50:43 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:50:43 INFO  time: compiled project_bd2c96d2de in 0.48s
+2023.07.24 12:50:44 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:50:47 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:50:49 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:50:50 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:50:55 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:50:59 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:50:59 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:51:00 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:51:02 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:51:03 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:51:05 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:51:08 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:51:09 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:51:10 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:51:10 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:51:12 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:51:13 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:51:20 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:51:20 INFO  time: compiled project_bd2c96d2de in 0.52s
+2023.07.24 12:51:21 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:51:25 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:51:26 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:51:27 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:51:28 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:51:28 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:51:28 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:51:29 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:51:29 INFO  time: compiled project_bd2c96d2de in 0.34s
+2023.07.24 12:51:30 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:04 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:14 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:29 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:29 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:29 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:29 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:29 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:29 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:29 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:29 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:29 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:32 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:32 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:32 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:32 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:32 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:32 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:32 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:32 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:32 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:33 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:33 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:33 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:33 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:33 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:33 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:35 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:35 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:35 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:35 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:35 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:40 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:44 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:45 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:55 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:56 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:57 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:58 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:52:59 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:53:00 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:53:00 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:53:00 INFO  time: compiled project_bd2c96d2de in 0.43s
+2023.07.24 12:53:01 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:53:04 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:53:06 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:53:07 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:53:08 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:53:08 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:53:09 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:53:09 INFO  time: compiled project_bd2c96d2de in 0.33s
+2023.07.24 12:53:10 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:53:16 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:53:18 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:53:19 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:53:20 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:53:20 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:53:20 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:53:22 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:53:22 INFO  time: compiled project_bd2c96d2de in 0.27s
+2023.07.24 12:53:22 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:53:25 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:53:27 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:53:27 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:53:29 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:53:29 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 12:53:30 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:53:30 INFO  time: compiled project_bd2c96d2de in 0.52s
+2023.07.24 12:53:48 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:53:48 INFO  time: compiled project_bd2c96d2de in 0.33s
+2023.07.24 12:56:29 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 12:56:29 INFO  time: compiled project_bd2c96d2de in 0.35s
+2023.07.24 13:39:28 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 13:39:28 INFO  time: compiled project_bd2c96d2de in 0.41s
+Jul 24, 2023 1:40:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4376
+2023.07.24 13:41:29 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 13:41:29 INFO  time: compiled project_bd2c96d2de in 0.32s
+2023.07.24 13:45:34 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 13:45:34 INFO  time: compiled project_bd2c96d2de in 0.72s
+2023.07.24 13:46:09 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 13:46:09 INFO  time: compiled project_bd2c96d2de in 0.5s
+2023.07.24 13:46:21 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 13:46:21 INFO  time: compiled project_bd2c96d2de in 0.44s
+2023.07.24 13:46:23 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 13:46:23 INFO  time: compiled project_bd2c96d2de in 0.38s
+2023.07.24 13:46:41 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 13:46:41 INFO  time: compiled project_bd2c96d2de in 0.35s
+2023.07.24 13:46:48 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 13:46:48 INFO  time: compiled project_bd2c96d2de in 0.34s
+Jul 24, 2023 1:48:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5422
+2023.07.24 13:48:54 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 13:48:54 INFO  time: compiled project_bd2c96d2de in 0.33s
+2023.07.24 13:50:11 WARN  no build target for: C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 05\Question05.scala
+Jul 24, 2023 1:51:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6006
+2023.07.24 13:53:26 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 13:53:26 INFO  time: compiled project_bd2c96d2de in 0.57s
+Jul 24, 2023 1:53:39 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6240
+2023.07.24 13:53:43 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 13:53:43 INFO  time: compiled project_bd2c96d2de in 0.33s
+2023.07.24 13:53:43 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 13:53:44 INFO  time: compiled project_bd2c96d2de in 0.5s
+2023.07.24 13:53:48 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 13:53:48 INFO  time: compiled project_bd2c96d2de in 0.1s
+2023.07.24 13:54:12 WARN  no build target for: C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 04\tutorial04\src\main\scala\Question03.scala
+2023.07.24 13:54:38 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 13:54:38 INFO  time: compiled project_bd2c96d2de in 0.28s
+2023.07.24 13:54:51 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 13:54:51 INFO  time: compiled project_bd2c96d2de in 0.11s
+2023.07.24 13:55:35 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 13:55:35 INFO  time: compiled project_bd2c96d2de in 0.46s
+2023.07.24 13:59:43 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 13:59:43 INFO  time: compiled project_bd2c96d2de in 0.4s
+2023.07.24 14:00:36 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 14:00:36 INFO  time: compiled project_bd2c96d2de in 0.13s
+2023.07.24 14:00:38 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 14:00:38 INFO  time: compiled project_bd2c96d2de in 0.32s
+2023.07.24 14:01:41 WARN  Could not load snapshot text for C:\Users\Vishwa\Documents\MYWORK\scala\Patrical 06\Question01.scala
+2023.07.24 14:01:41 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 14:01:41 INFO  time: compiled project_bd2c96d2de in 0.37s
+2023.07.24 14:02:56 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 14:02:56 INFO  time: compiled project_bd2c96d2de in 0.32s
+2023.07.24 14:08:01 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 14:08:01 INFO  time: compiled project_bd2c96d2de in 0.47s
+2023.07.24 14:08:19 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 14:08:19 INFO  time: compiled project_bd2c96d2de in 0.34s
+2023.07.24 14:10:23 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 14:10:23 INFO  time: compiled project_bd2c96d2de in 0.31s
+2023.07.24 14:14:32 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 14:14:32 INFO  time: compiled project_bd2c96d2de in 0.37s
+2023.07.24 14:14:51 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 14:14:51 INFO  time: compiled project_bd2c96d2de in 0.26s
+2023.07.24 14:16:46 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 14:16:46 INFO  time: compiled project_bd2c96d2de in 0.37s
+2023.07.24 14:16:49 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 14:16:49 INFO  time: compiled project_bd2c96d2de in 0.41s
+2023.07.24 14:16:59 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 14:16:59 INFO  time: compiled project_bd2c96d2de in 0.26s
+Jul 24, 2023 2:17:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7613
+2023.07.24 14:17:46 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 14:17:46 INFO  time: compiled project_bd2c96d2de in 0.28s
+2023.07.24 14:27:33 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 14:27:33 INFO  time: compiled project_bd2c96d2de in 0.29s
+2023.07.24 14:28:40 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 14:28:40 INFO  time: compiled project_bd2c96d2de in 0.27s
+Exception in thread "pool-5-thread-1" java.lang.InterruptedException
+	at scala.meta.internal.metals.FutureCancelToken.checkCanceled(FutureCancelToken.scala:29)
+	at scala.meta.internal.pc.CompilerAccess.onCompilerJobQueue$$anonfun$1(CompilerAccess.scala:229)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:152)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+2023.07.24 14:28:59 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 14:28:59 INFO  time: compiled project_bd2c96d2de in 0.27s
+Jul 24, 2023 2:29:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7948
+2023.07.24 14:29:18 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 14:29:18 INFO  time: compiled project_bd2c96d2de in 0.24s
+2023.07.24 14:31:35 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 14:31:35 INFO  time: compiled project_bd2c96d2de in 0.31s
+2023.07.24 15:03:44 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 15:03:44 INFO  time: compiled project_bd2c96d2de in 0.32s
+Jul 24, 2023 3:07:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8562
+2023.07.24 15:11:35 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 15:11:35 INFO  time: compiled project_bd2c96d2de in 0.27s
+2023.07.24 15:18:53 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 15:18:53 INFO  time: compiled project_bd2c96d2de in 0.27s
