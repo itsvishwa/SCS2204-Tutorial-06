@@ -20,7 +20,16 @@ def encrypt(s: String, key: Int): String = {
                 res = (('Z' + 1) - ('A' - res)).toChar;
             }
             arr(i) = res;
-        // for number, symbol
+        // for number
+        }else if(l >= '0' && l <= '9'){
+            var res: Char = (l + (key % 10)).toChar;
+            if (res > '9'){
+                res = (('0' - 1) + (res - '9')).toChar;
+            }else if(res < '0'){
+                res = (('9' + 1) - ('0' - res)).toChar;
+            }
+            arr(i) = res;
+        // for symbol
         }else{
             arr(i) = l;
         }
@@ -52,6 +61,16 @@ def decrypt(s: String, key: Int): String = {
                 res = (('Z' + 1) - ('A' - res)).toChar;
             }
             arr(i) = res;
+        }// for number
+        else if(l >= '0' && l <= '9'){
+            var res: Char = (l - (key % 10)).toChar;
+            if (res > '9'){
+                res = (('0' - 1) + (res - '9')).toChar;
+            }else if(res < '0'){
+                res = (('9' + 1) - ('0' - res)).toChar;
+            }
+            arr(i) = res;
+        // for symbol
         }else{
             arr(i) = l;
         }

@@ -775,3 +775,31 @@ WARNING: Unmatched cancel notification for request id 8562
 2023.07.24 15:11:35 INFO  time: compiled project_bd2c96d2de in 0.27s
 2023.07.24 15:18:53 INFO  compiling project_bd2c96d2de (1 scala source)
 2023.07.24 15:18:53 INFO  time: compiled project_bd2c96d2de in 0.27s
+2023.07.24 15:22:03 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 15:22:03 INFO  time: compiled project_bd2c96d2de in 0.26s
+2023.07.24 15:24:28 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 15:24:28 INFO  time: compiled project_bd2c96d2de in 0.23s
+2023.07.24 15:24:51 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 15:24:51 INFO  time: compiled project_bd2c96d2de in 0.23s
+2023.07.24 15:26:14 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 15:26:14 INFO  time: compiled project_bd2c96d2de in 0.25s
+2023.07.24 15:28:05 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 15:28:05 INFO  time: compiled project_bd2c96d2de in 0.27s
+2023.07.24 15:30:16 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 15:30:16 INFO  time: compiled project_bd2c96d2de in 0.28s
+Jul 24, 2023 3:32:45 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9707
+Jul 24, 2023 3:33:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 9711
+2023.07.24 15:34:01 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 15:34:01 INFO  time: compiled project_bd2c96d2de in 0.28s
+2023.07.24 15:34:02 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 15:34:02 INFO  time: compiled project_bd2c96d2de in 0.23s
+2023.07.24 15:34:11 INFO  compiling project_bd2c96d2de (1 scala source)
+2023.07.24 15:34:11 INFO  time: compiled project_bd2c96d2de in 0.25s
+Jul 24, 2023 8:52:26 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.07.24 21:23:07 INFO  Shutting down server
+2023.07.24 21:23:07 INFO  shutting down Metals
+2023.07.24 21:23:07 INFO  Shut down connection with build server.
+2023.07.24 21:23:07 INFO  Exiting server
